@@ -1,0 +1,34 @@
+﻿<Window x:Class="AutoRepair.NewUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoRepair"
+        mc:Ignorable="d"
+        Title="NewUser" Height="450" Width="800">
+    <Grid>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="368,371,0,0" VerticalAlignment="Top" Width="75" Click="Back"/>
+        <Button x:Name="Done" Content="Готово" HorizontalAlignment="Left" Margin="368,303,0,0" VerticalAlignment="Top" Width="75" Click="Done_Click" />
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="23" Margin="405,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Label Content="Почта" HorizontalAlignment="Left" Margin="268,68,0,0" VerticalAlignment="Top" Width="132"/>
+        <TextBox x:Name="surname" HorizontalAlignment="Left" Height="23" Margin="405,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="268,99,0,0" VerticalAlignment="Top" Width="132"/>
+        <TextBox x:Name="first_name" HorizontalAlignment="Left" Height="23" Margin="405,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="268,130,0,0" VerticalAlignment="Top" Width="132"/>
+        <TextBox x:Name="passport" HorizontalAlignment="Left" Height="23" Margin="405,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Паспорт" HorizontalAlignment="Left" Margin="268,161,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="268,226,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Подтвердите пароль" HorizontalAlignment="Left" Margin="268,257,0,0" VerticalAlignment="Top" Width="132"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="405,226,0,0" VerticalAlignment="Top" Width="120" Height="23"/>
+        <PasswordBox x:Name="confirm_password" HorizontalAlignment="Left" Margin="405,257,0,0" VerticalAlignment="Top" Width="120" Height="23"/>
+        <Label x:Name="er_email" Content="Ошибка" HorizontalAlignment="Left" Margin="546,68,0,0" VerticalAlignment="Top" Width="132" Foreground="Red" Visibility="Hidden" />
+        <Label x:Name="er_surname" Content="Ошибка" HorizontalAlignment="Left" Margin="546,99,0,0" VerticalAlignment="Top" Width="132" Foreground="Red" Visibility="Hidden" />
+        <Label x:Name="er_name" Content="Ошибка" HorizontalAlignment="Left" Margin="546,130,0,0" VerticalAlignment="Top" Width="132" Foreground="Red" Visibility="Hidden" />
+        <Label x:Name="er_passport" Content="Ошибка" HorizontalAlignment="Left" Margin="546,161,0,0" VerticalAlignment="Top" Width="132" Foreground="Red" Visibility="Hidden"/>
+        <Label x:Name="er_password" Content="Ошибка" HorizontalAlignment="Left" Margin="546,222,0,0" VerticalAlignment="Top" Width="132" Foreground="Red" Visibility="Hidden" />
+        <Label x:Name="lab_dob" Content="Дата рождения" HorizontalAlignment="Left" Margin="268,192,0,0" VerticalAlignment="Top" Width="132"/>
+        <DatePicker x:Name="dob" HorizontalAlignment="Left" Margin="405,193,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="er_dob" Content="Ошибка" HorizontalAlignment="Left" Margin="546,191,0,0" VerticalAlignment="Top" Width="132" Foreground="Red" Visibility="Hidden" />
+
+    </Grid>
+</Window>

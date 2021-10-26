@@ -1,0 +1,22 @@
+﻿<Window x:Class="AutoRepair.PrivatInformation"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoRepair"
+        mc:Ignorable="d"
+        Title="PrivatInformation" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Content="Назад" HorizontalAlignment="Left" Margin="358,369,0,0" VerticalAlignment="Top" Width="75" Click="Back_Click"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="265,160,0,0" VerticalAlignment="Top" Width="136" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="265,189,0,0" VerticalAlignment="Top" Width="136" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="265,218,0,0" VerticalAlignment="Top" Width="136" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Почта (Логин)" HorizontalAlignment="Left" Margin="265,131,0,0" VerticalAlignment="Top" Width="136" FontFamily="Times New Roman" FontSize="16"/>
+        <Label x:Name="email_lab" Content="" HorizontalAlignment="Left" Margin="401,131,0,0" VerticalAlignment="Top" Width="136" FontFamily="Times New Roman" FontSize="16"/>
+        <Label x:Name="surname_lab" Content="" HorizontalAlignment="Left" Margin="401,160,0,0" VerticalAlignment="Top" Width="136" FontFamily="Times New Roman" FontSize="16"/>
+        <Label x:Name="first_name_lab" Content="" HorizontalAlignment="Left" Margin="401,189,0,0" VerticalAlignment="Top" Width="136" FontFamily="Times New Roman" FontSize="16"/>
+        <Label x:Name="dob_lab" Content="" HorizontalAlignment="Left" Margin="401,218,0,0" VerticalAlignment="Top" Width="136" FontFamily="Times New Roman" FontSize="16"/>
+
+    </Grid>
+</Window>
